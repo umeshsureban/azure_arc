@@ -24,8 +24,8 @@
     GUIProductKey                        = "WX4NM-KYWYW-QJJR4-XV3QB-6VM33"        # Product key for Windows Server 2019 (Desktop Experience) Datacenter Installation
 
     # SDN Lab Domain
-    SDNDomainFQDN                        = "jumpstart.local"                      # Limit name (not the .com) to 14 characters as the name will be used as the NetBIOS name. 
-    DCName                               = "jumpstartdc"                          # Name of the domain controller virtual machine (limit to 14 characters)
+    SDNDomainFQDN                        = "kynlab.local"                      # Limit name (not the .com) to 14 characters as the name will be used as the NetBIOS name. 
+    DCName                               = "kynlabdc"                          # Name of the domain controller virtual machine (limit to 14 characters)
 
     # NAT Configuration
     natHostSubnet                        = "192.168.128.0/24"

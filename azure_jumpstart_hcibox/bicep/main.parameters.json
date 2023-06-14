@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "spnClientId": {
-            "value": "<your service principal client id>"
+            "value": "45ef4547-ea20-4cd3-a281-1972d76072e5"
         },
         "spnClientSecret": {
-            "value": "<your service principal secret>"
+            "value": "nug8Q~BwXYT3nrTIyBlAjKCT4gyEob6OTyhhRbDf"
         },
         "spnTenantId": {
-            "value": "<your service principal tenant id>"
+            "value": "4a489cff-3c9e-4b09-95f3-dd5dd987666d"
         },
         "windowsAdminUsername": {
             "value": "arcdemo"
@@ -21,7 +21,7 @@
             "value": "HCIBox-Workspace"
         },
         "deployBastion": {
-            "value": false
+            "value": true
         },
         "registerCluster": {
             "value": true
@@ -31,6 +31,12 @@
         },
         "deployAKSHCI": {
             "value": true
+        },
+        "githubAccount": {
+            "value": "umeshsureban"
+        },
+        "githubBranch": {
+            "value": "main"
         }
     }
 }
